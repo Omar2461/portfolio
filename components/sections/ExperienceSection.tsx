@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 function ExperienceSection() {
   const Experiences = [
     {
@@ -23,10 +27,9 @@ function ExperienceSection() {
           <p className="text-gray-600 text-sm">{exp.duration}</p>
         </div>
 
-        <br/>
+        <br />
 
         <div className="flex flex-col items-center space-y-3 absolute md:ml-60 lg:ml-83 xl:ml-102 2xl:ml-110 md:mt-1 mt-25 ml-5 transition-all duration-400">
-
           <div className="w-6 h-6 rounded-full border-2 border-gray-300 p-1">
             <div className="w-full h-full rounded-full bg-teal-600"></div>
           </div>
@@ -55,12 +58,19 @@ function ExperienceSection() {
   });
 
   return (
-    <section className="rounded-xl shadow-xl"  id="ExperiencesSection">
+    <motion.section
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 1 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
+      className="rounded-xl shadow-xl"
+      id="ExperiencesSection"
+    >
       <h3 className="text-3xl text-gray-600 font-bold mb-10 flex justify-center ">
         My Experience
       </h3>
       {renderExperience}
-    </section>
+    </motion.section>
   );
 }
 

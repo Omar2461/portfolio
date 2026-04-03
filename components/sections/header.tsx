@@ -2,14 +2,14 @@ import Link from "next/link";
 import localFont from "next/font/local";
 
 const myFont = localFont({
-  src: "../app/fonts/VeganStylePersonalUse-5Y58.ttf",
+  src: "../../app/fonts/VeganStylePersonalUse-5Y58.ttf",
 });
 
 function Header() {
   const headerItems = [
     { title: "Services", link: "#ServicesSection" },
     { title: "Experience", link: "#ExperiencesSection" },
-    { title: "Works", link: "#WorksSection" },
+    { title: "Projects", link: "#projects" },
   ];
 
   const renderHeaderItems = () => {

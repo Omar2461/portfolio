@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Silver Style — Full Stack E-Commerce Application",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Express.js",
+      "MongoDB",
+      "REST APIs"
+    ],
+    "description": "Built a full-stack e-commerce application with a scalable architecture using Next.js and TypeScript. Developed RESTful APIs with Express.js and integrated MongoDB for data persistence. Implemented state management using Redux Toolkit and delivered a fully responsive, user-friendly interface with clean UI/UX practices.",
+    "role": "Full Stack Developer",
+    "img": "https://res.cloudinary.com/dijoz9ie7/image/upload/q_auto/f_auto/v1775215827/Screenshot_2026-04-03_131622_mcqcyw.png",
+    "github": "https://github.com/Omar2461/silver_style",
+    "link": "#"
+  },
+
+  {
+    "title": "SAS Project — State Management Demo App",
+    "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Zustand", "RTL Support"],
+    "description": "Developed a modern frontend application demonstrating lightweight and efficient state management using Zustand. Focused on performance optimization, clean component structure, and scalable architecture using Next.js and TypeScript, Ensured full RTL support for Arabic content and built a scalable.",
+    "role": "Frontend Developer",
+    "img": "https://res.cloudinary.com/dijoz9ie7/image/upload/q_auto/f_auto/v1775216124/SAS_Project_uzfbem.png",
+    "github": "https://github.com/Omar2461/sas-project",
+    "link": "#"
+  },
+
+  {
+    "title": "First Financials — Corporate Website",
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Responsive Design",
+      "RTL Support"
+    ],
+    "description": "Developed a responsive corporate website for a financial services company with a clean and professional UI tailored to the industry. Implemented smooth and performant animations using Framer Motion to enhance user experience. Ensured full RTL support for Arabic content and built a scalable, component-based architecture aligned with modern frontend best practices.",
+    "role": "Frontend Developer",
+    "img": "https://res.cloudinary.com/dijoz9ie7/image/upload/q_auto/f_auto/v1775215829/Screenshot_2026-04-03_132710_asptgc.png",
+    "github": "https://github.com/Omar2461/First-Financial-Co.",
+    "link": "https://first-financial-co.vercel.app/"
+  },
+  {
+    "title": "E-Commerce Backend — Product & Cart Management",
+    "tech": ["JavaScript", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+    "description": "Created the backend logic for an e-commerce platform, including product management, cart features, and order processing. Ensured scalability and security while providing well-documented API endpoints for frontend consumption.",
+    "role": "Backend Developer",
+    "img": "https://res.cloudinary.com/dijoz9ie7/image/upload/q_auto/f_auto/v1775218846/Ecomm_r7ize5.png",
+    "github": "https://github.com/Omar2461/ecomm",
+    "link": "https://ecomm-two-rho.vercel.app/"
+  },
+
+  {
+    "title": "Movies API — RESTful Movie Management",
+    "tech": ["HTML", "Bulma css", "JavaScript", "REST APIs"],
+    "description": "Built a RESTful API for movie data management, including endpoints for listing, searching, and managing movie records. Implemented efficient routing, error handling, and JSON responses for seamless integration with frontend clients.",
+    "role": "Backend Developer",
+    "img": "https://res.cloudinary.com/dijoz9ie7/image/upload/q_auto/f_auto/v1775218709/Movie_Fight_qx2jw6.png",
+    "github": "https://github.com/Omar2461/moviesApi",
+    "link": "https://movies-api-plum-pi.vercel.app/"
+  },
+
+  {
+    "title": "Images API",
+    "tech": ["HTML", "Bulma css", "JavaScript", "REST APIs"],
+    "description": "Designed an image handling API to upload, fetch, and manage image metadata efficiently. Integrated with Cloudinary for media storage and optimized API endpoints for performance and scalability.",
+    "role": "Backend Developer",
+    "img": "https://res.cloudinary.com/dijoz9ie7/image/upload/q_auto/f_auto/v1775219013/imagesApi_jmllw4.png",
+    "github": "https://github.com/Omar2461/imagesApi",
+    "link": "https://images-api-kappa.vercel.app/"
+  },
+  {
+    "title": "Maze Game — Interactive Game",
+    "tech": ["JavaScript", "HTML", "CSS"],
+    "description": "Developed an interactive maze game with keyboard controls, collision detection, and dynamic obstacles. Focused on providing smooth gameplay and responsive design to ensure accessibility on multiple devices.",
+    "role": "Frontend Developer",
+    "img": "https://res.cloudinary.com/dijoz9ie7/image/upload/q_auto/f_auto/v1775218468/Maze_Game_wacyqa.png",
+    "github": "https://github.com/Omar2461/mazeGame",
+    "link": "https://maze-game-rouge.vercel.app/"
+  }
+]

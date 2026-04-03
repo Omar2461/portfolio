@@ -1,4 +1,8 @@
-import Card from "@/components/Card";
+"use client";
+
+import { motion } from "framer-motion";
+
+import Card from "@/components/ui/Card";
 
 import { CgScreen } from "react-icons/cg";
 import { CiMobile3 } from "react-icons/ci";
@@ -7,22 +11,10 @@ function ServicesSection() {
   const services = [
     {
       title: "Website Design",
-      projects: 10,
+      projects: 6,
       icon: <CgScreen />,
       bgColor: "bg-teal-700",
     },
-    {
-      title: "Mobile App Design",
-      projects: 1,
-      icon: <CiMobile3 />,
-      bgColor: "bg-yellow-400",
-    },
-    // {
-    //   title: "Brand Identity",
-    //   projects: 47,
-    //   icon: <TbBrandBinance />,
-    //   bgColor: "bg-orange-500",
-    // },
   ];
 
   const renderServiceCard = services.map((service, idx) => (
@@ -45,7 +37,14 @@ function ServicesSection() {
   ));
 
   return (
-    <section className="mt-16 flex" id="ServicesSection">
+    <motion.section
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 1 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
+      className="mt-16 flex"
+      id="ServicesSection"
+    >
       <div className="space-y-4 mt-8">{renderServiceCard}</div>
 
       <div className="flex flex-col ml-12 md:ml-20 lg:ml-50 xl:ml-116 mt-8 transition-all duration-400">
@@ -59,7 +58,7 @@ function ServicesSection() {
           products.Beside that also help their business.
         </p>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
