@@ -9,8 +9,8 @@ function ExperienceSection() {
       duration: "Sep 2025 – Oct 2025 (40 hours)",
       details: [
         "Completed a structured frontend development training program focused on modern web technologies.",
-        "Developed user interfaces using HTML, CSS, and JavaScript, applying responsive and cross-browser design techniques.",
-        "Built interactive UI components using React.js, including components, props, and state management.",
+        "Developed user interfaces using HTML, CSS and JavaScript, applying responsive and cross-browser design techniques.",
+        "Built interactive UI components using React.js, including components, props and state management.",
         "Practiced version control with Git and collaborated in a workflow inspired by Agile methodologies.",
         "Applied UI/UX fundamentals to enhance layout structure and user experience across mini-projects..",
       ],

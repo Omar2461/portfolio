@@ -3,7 +3,7 @@ import ExperienceSection from "@/components/sections/ExperienceSection";
 import Header from "@/components/sections/header";
 import IntroSection from "@/components/sections/IntroSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
-import ServicesSection from "@/components/sections/ServicesSection";
+import SkillsSection from "@/components/sections/SKillsSection";
 
 export const metadata = {
   title: "Omar Hassan - Portfolio",
@@ -19,7 +19,7 @@ export default function PortfolioPage() {
         <Header />
 
         <IntroSection />
-        <ServicesSection />
+        <SkillsSection />
       </div>
 
       {/* RIGHT SIDE bg-[#f3e0a2] */}

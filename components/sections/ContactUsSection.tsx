@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 import Panel from "../ui/Panel";
 
 function ContactUsSection() {
@@ -13,6 +14,7 @@ function ContactUsSection() {
       whileInView={{ opacity: 1, y: 1 }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
+      className="pb-5"
     >
       <div>
         <h1 className="text-3xl text-gray-600 font-bold mb-4">Contact</h1>
@@ -20,10 +22,10 @@ function ContactUsSection() {
           Feel free to reach out through email or professional platforms.
         </p>
       </div>
-      <div className="flex flex-col gap-2">
+      <div className="flex gap-2">
         <Panel>
           <a href="mailto:omarhassan.mansour@gmail.com" target="_blank">
-            omarhassan.mansour@gmail.com
+            <BiLogoGmail className="text-2xl" />
           </a>
         </Panel>
 
