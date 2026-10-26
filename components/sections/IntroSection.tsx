@@ -21,8 +21,8 @@ function IntroSection() {
           </h1>
 
           <p className="text-lg text-gray-600 leading-relaxed">
-            I build scalable and modern web applications using technologies like
-            Next.js, Node.js, and MongoDB.
+            I build scalable, modern full-stack web applications with Next.js,
+            TypeScript and ASP.NET Core, backed by Node.js and SQL databases.
           </p>
 
           <div className="flex gap-4">

@@ -3,38 +3,47 @@
 import { motion } from "framer-motion";
 import Card from "@/components/ui/Card";
 import { CgScreen } from "react-icons/cg";
-import { CiMobile3 } from "react-icons/ci";
+import { FaServer } from "react-icons/fa";
 import { FaDatabase, FaTools, FaCode } from "react-icons/fa";
 
 function SkillsSection() {
   const skills = [
     {
       title: "Frontend",
-      items: ["React.js", "Next.js", "TypeScript", "JavaScript", "HTML", "CSS"],
+      items: [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "Zustand",
+        "HTML",
+        "CSS",
+      ],
       icon: <CgScreen />,
       bgColor: "bg-teal-700",
     },
     {
       title: "Backend",
-      items: ["Node.js", "Express.js", "REST APIs"],
-      icon: <CiMobile3 />,
+      items: ["ASP.NET Core", "Node.js", "Express.js", "REST APIs"],
+      icon: <FaServer/>,
       bgColor: "bg-blue-600",
     },
     {
       title: "Databases",
-      items: ["MongoDB", "MySQL"],
+      items: ["MySQL", "SQL Server", "MongoDB", "SQL"],
       icon: <FaDatabase />,
       bgColor: "bg-green-600",
     },
     {
       title: "Programming",
-      items: ["JavaScript", "TypeScript", "PHP", "Java", "C", "C++", "SQL"],
+      items: ["JavaScript", "TypeScript", "C#", "Java", "C", "C++", "PHP"],
       icon: <FaCode />,
       bgColor: "bg-purple-600",
     },
     {
       title: "Tools",
-      items: ["Git", "GitHub", "Redux", "JSON Server"],
+      items: ["Git", "GitHub", "JSON Server"],
       icon: <FaTools />,
       bgColor: "bg-orange-500",
     },
